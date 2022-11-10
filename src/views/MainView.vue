@@ -2,7 +2,7 @@
   <div>
     <HeaderCont />
     <section class="main__cont">
-      <div class="main__inner">
+      <div class="main__inner container">
         <div v-for="title in title" v-bind:key="title.text">
           {{ title.text }}
         </div>

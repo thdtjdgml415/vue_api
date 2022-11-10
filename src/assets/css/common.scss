@@ -1,5 +1,5 @@
 body {
-  background: var(--bg-light);
+  background: #d7d7d7;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
   padding: 14vmax 0;
   font-size: 80px;
   font-family: var(--font-main);
-  color: var(--white);
+  color: var(--bg-dark-border);
   line-height: 1;
   text-transform: uppercase;
 
@@ -29,7 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: var(--white);
+  color: var(--black);
   text-transform: uppercase;
 
   p {
@@ -48,7 +48,7 @@ body {
     display: block;
   }
   a {
-    color: var(--white);
+    color: var(--font-sub2);
     font-family: var(--font-sub2);
     font-size: 16px;
     border: 1px solid var(--white);

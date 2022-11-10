@@ -39,6 +39,7 @@
   display: flex;
   align-items: center;
   font-family: var(--font-sub2);
+  z-index: 100;
 
   div {
     text-align: center;
